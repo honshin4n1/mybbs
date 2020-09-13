@@ -1,0 +1,197 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+}
+
+.title {
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title-link {
+  text-decoration: none;
+  color: black;
+}
+.main-content {
+  width: 100%;
+}
+
+.post-link-box {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.post-link {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.messages {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.message {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.message-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.message-info {
+  display: flex;
+}
+
+.delete-btn {
+  margin-top: 10px;
+}
+
+.edit-btn {
+  margin-top: 10px;
+}
+
+.reply-btn {
+  margin-top: 10px;
+}
+
+.message-text {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 20px;
+  word-break: break-all;
+  margin-top: 0px;
+}
+
+.form-content {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.field-box {
+  width: 50%;
+  height: 150px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 20px;
+}
+
+.field-user {
+  width: 70%;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.field-message {
+  width: 90%;
+  height: 70px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.btn-box {
+  width: 30%;
+  height: 30%;
+  margin: 0 auto;
+}
+
+.post-btn {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+
+.toppage-link-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.update-info {
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+}
+
+.contributor {
+  font-size: 18px;
+}
+
+.creat-datetime {
+  font-size: 13px;
+  margin: 10px 0px 0px 0px;
+}
+
+.update-datetime {
+  font-size: 13px;
+  margin: 0px;
+}
+
+.pagination {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.page {
+  padding: 10px;
+  font-size: 17px;
+}
+
+.prev {
+  padding: 10px 25px;
+  font-size: 19px;
+}
+
+.next {
+  padding: 10px 25px;
+  font-size: 19px;
+}
+
+.comment {
+  height: 50%;
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-text {
+  margin: 5px 10px;
+
+}
+
+.replyer-info {
+  display: flex;
+  height: 50%;
+}
+
+.replyer {
+  font-size: 14px;
+}
+
+.comment-created {
+  font-size: 14px;
+}
