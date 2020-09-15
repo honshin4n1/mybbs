@@ -26,7 +26,7 @@
   if(!empty($_POST["contributor"]) && !empty($_POST["message"])) {
     $contributor = $_POST["contributor"];
     $message = $_POST["message"];
-    $sql = "INSERT INTO mybbs_honda_posts (contributor, message, created_at, update_at) VALUES (:contributor, :message, NOW(),NOW());";
+    $sql = "INSERT INTO mybbs_honda_posts (contributor, message, created_at, updated_at) VALUES (:contributor, :message, NOW(),NOW());";
     $stmt = $pdo->prepare($sql);
     $stmt -> bindValue(":contributor", $contributor, PDO::PARAM_STR);
     $stmt -> bindValue(":message", $message, PDO::PARAM_STR);
@@ -89,7 +89,7 @@
             <p class="contributor">［ <?= $post["contributor"] ?> ］/</p>
             <div>
               <p class="creat-datetime">［ <?= $post["created_at"] ?> 作成］</p>
-              <p class="update-datetime">［ <?= $post["update_at"] ?> 更新］</p>
+              <p class="update-datetime">［ <?= $post["updated_at"] ?> 更新］</p>
             </div>
           </div>
           <div>

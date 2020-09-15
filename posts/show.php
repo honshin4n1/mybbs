@@ -52,7 +52,7 @@
             <p class="contributor">［ <?= $post["contributor"] ?> ］/</p>
             <div>
               <p class="creat-datetime">［ <?= $post["created_at"] ?> 作成］</p>
-              <p class="update-datetime">［ <?= $post["update_at"] ?> 更新］</p>
+              <p class="update-datetime">［ <?= $post["updated_at"] ?> 更新］</p>
             </div>
           </div>
         </div>
