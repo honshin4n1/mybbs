@@ -97,7 +97,7 @@
             <input type="hidden" name="delete_id" value="<?= $post["id"] ?>">
             <button type="submit" class="delete-btn">削除</button>
             </form>
-            <form method="post" action="/honda/mybbs/posts/edit.php">
+            <form method="post" action="/honda/mybbs/posts/edit.php/<?= $post["id"] ?>">
             <input type="hidden" name="update_id" value="<?= $post["id"] ?>">
             <button type="sumit" class="edit-btn">編集</button>
             </form>
